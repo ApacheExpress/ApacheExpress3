@@ -6,7 +6,7 @@
 ![Apache 2](https://img.shields.io/badge/apache-2-yellow.svg)
 ![Swift3](https://img.shields.io/badge/swift-3-blue.svg)
 ![macOS](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
-![Travis](https://travis-ci.org/ApacheExpress3/ApacheExpress3.svg?branch=develop)
+![Travis](https://travis-ci.org/ApacheExpress/ApacheExpress3.svg?branch=develop)
 
 ApacheExpress allows you to quickly write Server Side 
 [Swift](http://swift.org/) 
