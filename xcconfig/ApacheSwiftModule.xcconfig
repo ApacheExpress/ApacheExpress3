@@ -1,0 +1,7 @@
+//
+// Copyright (C) 2017 ZeeZide GmbH, All Rights Reserved
+// Created by Helge Hess on 23/01/2017.
+//
+
+#include "Base.xcconfig"
+#include "/usr/local/lib/xcconfig/mod_swift.xcconfig"
