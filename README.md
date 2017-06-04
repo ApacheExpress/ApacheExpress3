@@ -73,3 +73,13 @@ public func ApacheMain(_ cmd: OpaquePointer) {
 ```
 
 Yes. All that is running within Apache.
+
+### Who
+
+**ApacheExpress** is brought to you by
+[ZeeZide](http://zeezide.de).
+We like feedback, GitHub stars, cool contract work,
+presumably any form of praise you can think of.
+
+There is an `#apacheexpress` channel on the 
+[Noze.io Slack](http://slack.noze.io).
