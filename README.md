@@ -6,6 +6,7 @@
 ![Apache 2](https://img.shields.io/badge/apache-2-yellow.svg)
 ![Swift3](https://img.shields.io/badge/swift-3-blue.svg)
 ![macOS](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
+![tuxOS](https://img.shields.io/badge/os-tuxOS-green.svg?style=flat)
 ![Travis](https://travis-ci.org/ApacheExpress/ApacheExpress3.svg?branch=develop)
 
 ApacheExpress allows you to quickly write Server Side 
@@ -73,6 +74,11 @@ public func ApacheMain(_ cmd: OpaquePointer) {
 ```
 
 Yes. All that is running within Apache.
+
+### Documentation
+
+ApacheExpress documentation can be found at:
+[docs.apacheexpress.io](http://docs.apacheexpress.io/).
 
 ### Who
 
