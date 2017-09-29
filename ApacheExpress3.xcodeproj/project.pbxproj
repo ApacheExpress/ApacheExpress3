@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8BC42F01F7EA12C00AFA37C /* ApacheMessageBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BC42EB1F7EA12B00AFA37C /* ApacheMessageBase.swift */; };
+		E8BC42F11F7EA12C00AFA37C /* ApacheExpressHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BC42EC1F7EA12B00AFA37C /* ApacheExpressHandler.swift */; };
+		E8BC42F21F7EA12C00AFA37C /* ApacheIncomingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BC42ED1F7EA12B00AFA37C /* ApacheIncomingMessage.swift */; };
+		E8BC42F31F7EA12C00AFA37C /* ApacheServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BC42EE1F7EA12B00AFA37C /* ApacheServer.swift */; };
+		E8BC42F41F7EA12C00AFA37C /* ApacheServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BC42EF1F7EA12B00AFA37C /* ApacheServerResponse.swift */; };
 		E8BCF0661E82CB8400F235C8 /* Freddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BCF0631E82CB8400F235C8 /* Freddy.framework */; };
 		E8BCF0671E82CB8400F235C8 /* libExExpress.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BCF0641E82CB8400F235C8 /* libExExpress.dylib */; };
 		E8BCF0681E82CB8400F235C8 /* libmustache.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BCF0651E82CB8400F235C8 /* libmustache.dylib */; };
@@ -14,16 +19,16 @@
 		E8F8E0CB1E6F66E700326E3D /* ApacheConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8E0CA1E6F66E700326E3D /* ApacheConsole.swift */; };
 		E8F8E0CE1E6F66FB00326E3D /* ApacheExpress3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8E0CC1E6F66FB00326E3D /* ApacheExpress3.swift */; };
 		E8F8E0CF1E6F66FB00326E3D /* ReExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8E0CD1E6F66FB00326E3D /* ReExport.swift */; };
-		E8F8E0D51E6F670E00326E3D /* ApacheExpressHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8E0D01E6F670E00326E3D /* ApacheExpressHandler.swift */; };
-		E8F8E0D61E6F670E00326E3D /* ApacheIncomingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8E0D11E6F670E00326E3D /* ApacheIncomingMessage.swift */; };
-		E8F8E0D71E6F670E00326E3D /* ApacheMessageBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8E0D21E6F670E00326E3D /* ApacheMessageBase.swift */; };
-		E8F8E0D81E6F670E00326E3D /* ApacheServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8E0D31E6F670E00326E3D /* ApacheServer.swift */; };
-		E8F8E0D91E6F670E00326E3D /* ApacheServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8E0D41E6F670E00326E3D /* ApacheServerResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E83AF8A81E3E3F820039F300 /* libApacheExpress3.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libApacheExpress3.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85EF18A1E3E5447007A8C48 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8BC42EB1F7EA12B00AFA37C /* ApacheMessageBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApacheMessageBase.swift; sourceTree = "<group>"; };
+		E8BC42EC1F7EA12B00AFA37C /* ApacheExpressHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApacheExpressHandler.swift; sourceTree = "<group>"; };
+		E8BC42ED1F7EA12B00AFA37C /* ApacheIncomingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApacheIncomingMessage.swift; sourceTree = "<group>"; };
+		E8BC42EE1F7EA12B00AFA37C /* ApacheServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApacheServer.swift; sourceTree = "<group>"; };
+		E8BC42EF1F7EA12B00AFA37C /* ApacheServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApacheServerResponse.swift; sourceTree = "<group>"; };
 		E8BCF0631E82CB8400F235C8 /* Freddy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Freddy.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ApacheExpress3-dyfbjxfkrusgxdbjfypkxrxgrjfu/Build/Products/Debug/Freddy.framework"; sourceTree = "<group>"; };
 		E8BCF0641E82CB8400F235C8 /* libExExpress.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libExExpress.dylib; path = ../ExExpress/build/Debug/libExExpress.dylib; sourceTree = "<group>"; };
 		E8BCF0651E82CB8400F235C8 /* libmustache.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmustache.dylib; path = ../../../../dev/Swift/mustache/build/Debug/libmustache.dylib; sourceTree = "<group>"; };
@@ -33,11 +38,6 @@
 		E8F8E0CA1E6F66E700326E3D /* ApacheConsole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApacheConsole.swift; path = Sources/ApacheExpress3/ApacheConsole.swift; sourceTree = "<group>"; };
 		E8F8E0CC1E6F66FB00326E3D /* ApacheExpress3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApacheExpress3.swift; path = Sources/ApacheExpress3/ApacheExpress3.swift; sourceTree = "<group>"; };
 		E8F8E0CD1E6F66FB00326E3D /* ReExport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReExport.swift; path = Sources/ApacheExpress3/ReExport.swift; sourceTree = "<group>"; };
-		E8F8E0D01E6F670E00326E3D /* ApacheExpressHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApacheExpressHandler.swift; path = Sources/ApacheExpress3/ApacheExpressHandler.swift; sourceTree = SOURCE_ROOT; };
-		E8F8E0D11E6F670E00326E3D /* ApacheIncomingMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApacheIncomingMessage.swift; path = Sources/ApacheExpress3/ApacheIncomingMessage.swift; sourceTree = SOURCE_ROOT; };
-		E8F8E0D21E6F670E00326E3D /* ApacheMessageBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApacheMessageBase.swift; path = Sources/ApacheExpress3/ApacheMessageBase.swift; sourceTree = SOURCE_ROOT; };
-		E8F8E0D31E6F670E00326E3D /* ApacheServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApacheServer.swift; path = Sources/ApacheExpress3/ApacheServer.swift; sourceTree = SOURCE_ROOT; };
-		E8F8E0D41E6F670E00326E3D /* ApacheServerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApacheServerResponse.swift; path = Sources/ApacheExpress3/ApacheServerResponse.swift; sourceTree = SOURCE_ROOT; };
 		E8F8E0DA1E6F675600326E3D /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Base.xcconfig; path = xcconfig/Base.xcconfig; sourceTree = "<group>"; };
 		E8F8E0DB1E6F678B00326E3D /* ModSwiftLib.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = ModSwiftLib.xcconfig; path = xcconfig/ModSwiftLib.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,14 +101,14 @@
 		E85EF1AE1E3E5500007A8C48 /* http */ = {
 			isa = PBXGroup;
 			children = (
-				E8F8E0D01E6F670E00326E3D /* ApacheExpressHandler.swift */,
-				E8F8E0D31E6F670E00326E3D /* ApacheServer.swift */,
-				E8F8E0D11E6F670E00326E3D /* ApacheIncomingMessage.swift */,
-				E8F8E0D41E6F670E00326E3D /* ApacheServerResponse.swift */,
-				E8F8E0D21E6F670E00326E3D /* ApacheMessageBase.swift */,
+				E8BC42EC1F7EA12B00AFA37C /* ApacheExpressHandler.swift */,
+				E8BC42ED1F7EA12B00AFA37C /* ApacheIncomingMessage.swift */,
+				E8BC42EB1F7EA12B00AFA37C /* ApacheMessageBase.swift */,
+				E8BC42EE1F7EA12B00AFA37C /* ApacheServer.swift */,
+				E8BC42EF1F7EA12B00AFA37C /* ApacheServerResponse.swift */,
 			);
 			name = http;
-			path = Sources/http;
+			path = Sources/ApacheExpress3/http;
 			sourceTree = "<group>";
 		};
 		E8AF38861E4A0A2100CBF4CB /* console */ = {
@@ -200,12 +200,12 @@
 			files = (
 				E8E480CF1EC20B1900350EDF /* ApacheReloadMiddleware.swift in Sources */,
 				E8F8E0CB1E6F66E700326E3D /* ApacheConsole.swift in Sources */,
-				E8F8E0D91E6F670E00326E3D /* ApacheServerResponse.swift in Sources */,
-				E8F8E0D51E6F670E00326E3D /* ApacheExpressHandler.swift in Sources */,
-				E8F8E0D61E6F670E00326E3D /* ApacheIncomingMessage.swift in Sources */,
-				E8F8E0D81E6F670E00326E3D /* ApacheServer.swift in Sources */,
+				E8BC42F01F7EA12C00AFA37C /* ApacheMessageBase.swift in Sources */,
+				E8BC42F11F7EA12C00AFA37C /* ApacheExpressHandler.swift in Sources */,
+				E8BC42F21F7EA12C00AFA37C /* ApacheIncomingMessage.swift in Sources */,
+				E8BC42F41F7EA12C00AFA37C /* ApacheServerResponse.swift in Sources */,
 				E8F8E0CF1E6F66FB00326E3D /* ReExport.swift in Sources */,
-				E8F8E0D71E6F670E00326E3D /* ApacheMessageBase.swift in Sources */,
+				E8BC42F31F7EA12C00AFA37C /* ApacheServer.swift in Sources */,
 				E8F8E0CE1E6F66FB00326E3D /* ApacheExpress3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
