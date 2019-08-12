@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.0
 import PackageDescription
 
 let package = Package(
@@ -10,7 +10,7 @@ let package = Package(
   
   dependencies: [
     .package(url: "https://github.com/modswift/CApache.git", 
-             from: "1.0.0"),
+             from: "2.0.1"),
     .package(url: "https://github.com/modswift/ExExpress.git",
              from: "0.7.0")
   ],
