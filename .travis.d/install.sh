@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ "$TRAVIS_OS_NAME" == "Linux" ]]; then
+if [[ "$TRAVIS_OS_NAME" == "Linux" || "$TRAVIS_OS_NAME" == "linux" ]]; then
 
   # our path is:
   #   /home/travis/build/NozeIO/Noze.io/
