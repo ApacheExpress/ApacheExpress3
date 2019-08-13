@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2017 ZeeZide GmbH, All Rights Reserved
+// Copyright (C) 2017-2019 ZeeZide GmbH, All Rights Reserved
 // Created by Helge Hess on 26/01/2017.
 //
 
@@ -56,8 +56,8 @@ extension request_rec {
 
 public extension CApache.module {
   
-  public init(name: String,
-              register_hooks: @escaping @convention(c) (OpaquePointer?) -> Void)
+  init(name: String,
+       register_hooks: @escaping @convention(c) (OpaquePointer?) -> Void)
   {
     self.init()
     

@@ -1,5 +1,5 @@
 //
-// Copyright (C) 2017 ZeeZide GmbH, All Rights Reserved
+// Copyright (C) 2017-2019 ZeeZide GmbH, All Rights Reserved
 // Created by Helge Hess on 26/01/2017.
 //
 
@@ -79,7 +79,11 @@ public class ApacheIncomingMessage : ApacheMessageBase,
     }
     
     let buffer  = UnsafeMutablePointer<Int8>.allocate(capacity: bufsize)
-    defer { buffer.deallocate(capacity: bufsize) }
+    #if swift(>=4.2)
+      defer { buffer.deallocate() }
+    #else
+      defer { buffer.deallocate(capacity: bufsize) }
+    #endif
     
     while true {
       let rc = ap_get_client_block(th, buffer, bufsize)
