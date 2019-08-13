@@ -239,11 +239,20 @@ open class ApacheExpress : Express {
       // trigger middleware stack
       
       do {
+        #if swift(>=4.2)
+        try self.handle(error: nil, request: req, response: res, next: { 
+          (args : Any...) in
+          // essentially the final handler
+          // Unlike ExExpress we don't do anything in here, we let Apache
+          // continue its handler processing.
+        })
+        #else
         try self.handle(error: nil, request: req, response: res, next: { _ in
           // essentially the final handler
           // Unlike ExExpress we don't do anything in here, we let Apache
           // continue its handler processing.
         })
+        #endif
         errorToThrow = nil
       }
       catch (let _error) {
