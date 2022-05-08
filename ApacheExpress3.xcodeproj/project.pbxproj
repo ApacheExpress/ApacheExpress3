@@ -167,13 +167,13 @@
 		E83AF8A01E3E3F820039F300 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = "ZeeZide GmbH";
 				TargetAttributes = {
 					E83AF8A71E3E3F820039F300 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4GXF3JAMM4;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1100;
 						ProvisioningStyle = Automatic;
 					};
 				};
